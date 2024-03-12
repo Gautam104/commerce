@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --BlueColor:#551A8B
+}
+
+.FM {
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between; /* Updated */
+  margin: 15px;
+}
+
+.fm1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+}
+
+.fs {
+  font-size: 24px;
+}
+
+.Title {
+  margin: 3px;
+  color:var(--BlueColor)
+}
+
+.col {
+  color: var(--BlueColor);
+}
+
+img {
+  height: 80px;
+}
+
+.productTitle {
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+.card {
+ background-color:#fff;
+ padding: 15px;
+ text-align: center;
+ border-radius: 3px;
+ display: inline-block;
+ border: 2px solid var(--BlueColor);
+}
+
+.productWrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);   /* ek column ma ketla cart mukva te set karvanu */
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.btn {
+  border: 0px;
+  padding: 11px;
+  border-radius: 4px;
+  background-color: var(--BlueColor);
+  color: #fff;
+  font-size: 15px;
+}
+
+
